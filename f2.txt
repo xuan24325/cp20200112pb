@@ -1,0 +1,13 @@
+cd ~/desktop
+  503  git config -l
+  504  cd cp20200112
+  505  git init
+  506  git remote add origin https://github.com/xuan24325/cp20200112pb.git
+  507  git remote -v
+  508  touch f2.txt
+  509  touch f3.markdown
+  510  git status
+  511  git add *
+  512  git commit -m'tryagain again'
+  513  git push -u origin master
+  514  history
